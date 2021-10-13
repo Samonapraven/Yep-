@@ -29,7 +29,7 @@ class hints:
 
 
 def hinting():
-    take_a_hint = random.randrange(1, 3)
+    take_a_hint = random.randrange(1, 4)
     if take_a_hint == 1:
         hint1()
     elif take_a_hint == 2:
